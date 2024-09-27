@@ -70,10 +70,10 @@ rapids_find_package(
 # add third party dependencies using CPM
 rapids_cpm_init()
 
-include(cmake/thirdparty/get_fmt.cmake)
-include(cmake/thirdparty/get_spdlog.cmake)
-#include(cmake/thirdparty/get_cccl.cmake)
-#include(cmake/thirdparty/get_nvtx.cmake)
+#include(cmake/thirdparty/get_fmt.cmake)
+#include(cmake/thirdparty/get_spdlog.cmake)
+include(cmake/thirdparty/get_cccl.cmake)
+include(cmake/thirdparty/get_nvtx.cmake)
 
 # ##################################################################################################
 # * library targets --------------------------------------------------------------------------------
