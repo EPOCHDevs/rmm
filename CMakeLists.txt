@@ -73,6 +73,9 @@ rapids_cpm_init()
 
 #include(cmake/thirdparty/get_fmt.cmake)
 #include(cmake/thirdparty/get_spdlog.cmake)
+find_package(fmt CONFIG REQUIRED)
+find_package(spdlog CONFIG REQUIRED)
+
 include(cmake/thirdparty/get_cccl.cmake)
 include(cmake/thirdparty/get_nvtx.cmake)
 
